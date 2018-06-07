@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+/*responsive css document*/
+
+h1, h2, h3, h4, h5, h6 {
+	text-align: center;
+}
+.skip-link {
+	position: absolute;
+	top: -40px;
+	left: 0;
+	background: #BF1722;
+	color: white;
+	padding: 10px;
+
+}
+
+.skip-link:focus{
+	top: 0;
+}
+#maincontent {
+	display: flex;
+	flex-wrap: wrap;
+}
+#map-container, .filter-container {
+	width: 100%;
+}
+#breadcrumb {
+	width:100%;
+}
+.inside #maincontent {
+	display: flex;
+	align-content: center;
+	text-align: left;
+}
+.filter-options {
+	text-align: center;
+}
+inside #map-container {
+	width: 100%;
+}
+.inside #restaurant-container {
+	width: 100%;
+	padding: 10px, 10px, 10px;
+}
+.inside #reviews-container {
+	width: 100%;
+}
+.restaurant-name {
+	text-align: center;
+}
+#restaurant-list {
+	display: flex;
+}
+#restaurant-list li {
+	text-align: center;
+}
+#filter-container {
+	width: 100%;
+}
+@media screen and (min-width: 450px) {
+	#map-container {
+		width: 100%;
+	}
+	.inside #map-container {
+		width: 100%;
+		display: block;
+	}
+	.inside #restaurant-container {
+		width: calc(100% - 10px);
+	}
+}
+@media screen and (min-width: 1000px){
+	#maincontent {
+		max-width: 1500px;
+		margin: auto;
+	}
+	.inside #maincontent {
+		max-width: 1500px;
+		margin: auto;
+	}
+}
