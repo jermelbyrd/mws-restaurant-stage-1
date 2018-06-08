@@ -36,7 +36,7 @@ h1, h2, h3, h4, h5, h6 {
 .filter-options {
 	text-align: center;
 }
-inside #map-container {
+.inside #map-container {
 	width: 100%;
 }
 .inside #restaurant-container {
