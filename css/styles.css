@@ -59,8 +59,11 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 	display: block;
 }
 #maincontent {
+  display: flex;
+  flex-flow: row wrap;
   background-color: #f3f3f3;
   min-height: 100%;
+	
 }
 #footer {
   background-color: #444;
